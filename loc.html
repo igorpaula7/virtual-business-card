@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereços</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    
+        #tudoloc{
+            min-width: 100vw;
+            min-height: 100vh;
+            background-color: #1c2c7c;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .logoloc{
+            margin-bottom: 20px;
+            margin-top: 50px;
+        }
+
+        .botoes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loc{
+            width: 250px;
+            height: 40px;
+            background-color: #1c2c7c;
+            margin-bottom: 10px;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+        
+        .return{
+            width: 150px;
+            height: 40px;
+            background-color: white;
+            margin-top: 50px;
+            color: black;
+            font-family: 'Montserrat', sans-serif;
+            border: none;
+            border-radius: 20px;
+        }
+        
+        .return:hover{
+            opacity: 0.8;
+        }
+
+        .rodapeloc{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .textorodapeloc{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="tudoloc">
+        <div class="botoes">
+            <img src="images/logo.png" alt="Logo Is Brasil" class="logoloc">
+            <a href="https://goo.gl/maps/ni716LbQ4njoGFMG9" target="_blank"><button class="loc">Is Brasil Business International - Passos</button></a>
+            <a href="https://goo.gl/maps/WWzzqdznswhsWrgQ9" target="_blank"><button class="loc">Centro Integrado de Comunicação - São José da Barra</button></a>
+            <a href="https://goo.gl/maps/FzhWFcLHzDpQTrRc7" target="_blank"><button class="loc">Centro de Logística - Alpinópolis</button></a>
+            <a href="https://goo.gl/maps/fcf36HoVcSkdfPAaA" target="_blank"><button class="loc">IS USA Sustainable Solutions - Orlando</button></a>
+            <a href="index.html"><button class="return">Voltar</button></a>
+        </div>
+        <div class="rodapeloc">
+            <p class="textorodapeloc">IS Brasil Soluções Sustentáveis © 2023</p>
+            <p class="textorodapeloc">Todos os direitos reservados</p>
+        </div>
+    </div>
+</body>
+</html>
