@@ -7,3 +7,18 @@ botao.onclick = function switcher() {
     document.body.classList.add("dark")
   }
 }
+
+const versoBotao = document.querySelector("#verso > button")
+const verso = document.querySelector("#verso")
+const frenteBotao = document.querySelector("footer > button")
+const frente = document.querySelector("#container")
+
+versoBotao.onclick = function sumir() {
+  verso.style.display = "none"
+  frente.style.display = "inline"
+}
+
+frenteBotao.onclick = function aparecer() {
+  verso.style.display = "flex"
+  frente.style.display = "none"
+}
